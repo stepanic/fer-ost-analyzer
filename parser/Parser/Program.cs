@@ -18,8 +18,7 @@ namespace Parser
             //Config
             string featureXMLtoCSV = "Phisiology/HR";
             //END config
-
-
+            
             #region Util/timestamps.txt
             using (TextReader reader = File.OpenText("DemoData/Util/timestamps.txt"))
             {
