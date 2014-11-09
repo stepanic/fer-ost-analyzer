@@ -16,7 +16,7 @@ namespace Parser
         static void Main(string[] args)
         {
             //Config
-            string featureXMLtoCSV = "Phisiology/HR";
+            string featureXMLtoCSV = "Phisiology/ECG 1";
             //END config
             
             #region Util/timestamps.txt
@@ -56,7 +56,7 @@ namespace Parser
             }
             #endregion
 
-            #region XML to CSV of all <X>data</X><Y>data</Y> to data,data
+            #region XML to CSV of all <X>data_x</X><Y>data_y</Y> to data,data
             TextWriter dataWriter = new StreamWriter("DemoData/" + featureXMLtoCSV + ".csv");
             using (CsvWriter csvw = new CsvWriter(dataWriter))
             {
@@ -82,8 +82,7 @@ namespace Parser
                 dataWriter.Dispose();
             }
             #endregion
-
-
+            
         }
     }
 }
