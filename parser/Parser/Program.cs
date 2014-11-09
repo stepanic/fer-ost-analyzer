@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Xml;
 using CsvHelper;
 
 namespace Parser
@@ -13,11 +15,16 @@ namespace Parser
     {
         static void Main(string[] args)
         {
-#region Util/timestamps.txt 
+            //Config
+            string featureXMLtoCSV = "Phisiology/HR";
+            //END config
+
+
+            #region Util/timestamps.txt
             using (TextReader reader = File.OpenText("DemoData/Util/timestamps.txt"))
             {
                 string filePath = @"Z:\TEMP_MATIJA\Paradigma - OST 2014\";
-                TextWriter writer = new StreamWriter("DemoData/Util/lab_timestamps.txt");
+                TextWriter writer = new StreamWriter("DemoData/Util/timestamps.csv");
                 var csvw = new CsvWriter(writer);
                 var csv = new CsvReader(reader);
                 csv.Configuration.Delimiter = "\t";
@@ -44,21 +51,39 @@ namespace Parser
                     csvw.WriteField(sot);
                     csvw.WriteField(label);
                     csvw.NextRecord();
-
-                    Console.Write(time);
-                    Console.Write(info);
-                    Console.Write(type);
-                    Console.Write(sot);
-                    Console.Write(label);
-                    Console.WriteLine("\n");
                 }
                 csvw.Dispose();
                 csv.Dispose();
             }
-            //END Util/timestamps.txt
+            #endregion
 
-            //Console.ReadLine();
-#endregion
+            #region XML to CSV of all <X>data</X><Y>data</Y> to data,data
+            TextWriter dataWriter = new StreamWriter("DemoData/" + featureXMLtoCSV + ".csv");
+            using (CsvWriter csvw = new CsvWriter(dataWriter))
+            {
+                XmlTextReader reader = new XmlTextReader("DemoData/" + featureXMLtoCSV + ".xml");
+                int counter = 0;
+                while (reader.Read())
+                {
+                    counter++;
+                    switch (reader.NodeType)
+                    {
+                        case XmlNodeType.Text: 
+                            csvw.WriteField(reader.Value);
+                            break;
+                        case XmlNodeType.EndElement: 
+                            if (reader.Name == "Y")
+                            {
+                                csvw.NextRecord();
+                            }
+                            break;
+                    }
+                }
+                csvw.Dispose();
+                dataWriter.Dispose();
+            }
+            #endregion
+
 
         }
     }
