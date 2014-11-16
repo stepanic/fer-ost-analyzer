@@ -1,0 +1,34 @@
+ZA ind_baseline1:
+----------------------------------
+ind_baseline1 = find(data.data.class==1);
+features_baseline1 = data.data.features(ind_baseline1,:);
+MEAN_OFFSET_SC_baseline1 = data.data.features(ind_baseline1,22);
+ApEn1_baseline1 = data.data.features(ind_baseline1,46);
+
+ZA ind_neutral1:
+----------------------------------
+ind_neutral1 = find(data.data.class==2);
+features_neutral1 = data.data.features(ind_neutral1,:);
+MEAN_OFFSET_SC_neutral1 = data.data.features(ind_neutral1,22);
+ApEn1_neutral1 = data.data.features(ind_neutral1,46);
+
+ZA ind_stres:
+----------------------------------
+ind_stres = find(data.data.class==3);
+features_stres = data.data.features(ind_stres,:);
+MEAN_OFFSET_SC_stres = data.data.features(ind_stres,22);
+ApEn1_stres = data.data.features(ind_stres,46);
+
+ZA ind_neutral2:
+----------------------------------
+ind_neutral2 = find(data.data.class==4);
+features_neutral2 = data.data.features(ind_neutral2,:);
+MEAN_OFFSET_SC_neutral2 = data.data.features(ind_neutral2,22);
+ApEn1_stres = data.data.features(ind_neutral2,46);
+
+ZA ind_baseline2:
+----------------------------------
+ind_baseline2 = find(data.data.class==5);
+features_baseline2 = data.data.features(ind_baseline2,:);
+MEAN_OFFSET_SC_baseline2 = data.data.features(ind_baseline2,22);
+ApEn1_baseline2 = data.data.features(ind_baseline2,46);
