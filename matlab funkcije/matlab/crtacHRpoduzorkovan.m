@@ -1,10 +1,10 @@
-constanta = 2
+constant = 2
 
-baseline1 = decimate(ApEn1_baseline1,2)
-neutral1 = decimate(ApEn1_neutral1,2)
-stres = decimate(ApEn1_stres,2)
-neutral2 = decimate(ApEn1_neutral2,2)
-baseline2= decimate(ApEn1_baseline2,2)
+baseline1 = decimate(HR_baseline1,constant)
+neutral1 = decimate(HR_neutral1,constant)
+stres = decimate(HR_stres,constant)
+neutral2 = decimate(HR_neutral2,constant)
+baseline2= decimate(HR_baseline2,constant)
 
 len1 = length(baseline1)
 len2 = length(neutral1)
@@ -17,6 +17,7 @@ figure()
 plot((1:len1),baseline1)
 hold on
 line('XData', [len1 len1], 'YData', [0 120], 'LineStyle', '-', 'LineWidth', 2, 'Color','m')
+
 plot(((len1+1):(len1+len2)),neutral1)
 line('XData', [(len1+len2) (len1+len2)], 'YData', [0 120], 'LineStyle', '-', 'LineWidth', 2, 'Color','m')
 plot(((len1 + len2 +1):(len1+len2+ len3)),stres)
@@ -50,8 +51,6 @@ line('XData', [ (len1+len2) (len1+len2+len3)], 'YData', [(mean(stres) - std(stre
 line('XData', [ (len1+len2+len3) (len1+len2+len3+len4)], 'YData', [(mean(neutral2) - std(neutral2)) (mean(neutral2) - std(neutral2))], 'LineStyle', ':', 'LineWidth', 2, 'Color','r')
 line('XData', [ (len1+len2+len3+len4) (len1+len2+len3+len4+len5)], 'YData', [(mean(baseline2) - std(baseline2)) (mean(baseline2) - std(baseline2))], 'LineStyle', ':', 'LineWidth', 2, 'Color','r')
 
-
-
-axis([0 270 0.2 1.2])
+axis([0 310 65 110])
 
 

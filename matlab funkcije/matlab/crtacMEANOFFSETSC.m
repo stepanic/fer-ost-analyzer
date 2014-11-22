@@ -1,14 +1,16 @@
-baseline1 = MEAN_OFFSET_SC_baseline1
-neutral1 = MEAN_OFFSET_SC_neutral1
-stres = MEAN_OFFSET_SC_stres
-neutral2 = MEAN_OFFSET_SC_neutral2
-baseline2= MEAN_OFFSET_SC_baseline2
+constant = 2
 
-len1 = length(MEAN_OFFSET_SC_baseline1)
-len2 = length(MEAN_OFFSET_SC_neutral1)
-len3 = length(MEAN_OFFSET_SC_stres)
-len4 = length(MEAN_OFFSET_SC_neutral2)
-len5 = length(MEAN_OFFSET_SC_baseline2)
+baseline1 = decimate(MEAN_OFFSET_SC_baseline1,2)
+neutral1 = decimate(MEAN_OFFSET_SC_neutral1,2)
+stres = decimate(MEAN_OFFSET_SC_stres,2)
+neutral2 = decimate(MEAN_OFFSET_SC_neutral2,2)
+baseline2= decimate(MEAN_OFFSET_SC_baseline2,2)
+
+len1 = length(baseline1)
+len2 = length(neutral1)
+len3 = length(stres)
+len4 = length(neutral2)
+len5 = length(baseline2)
 
 
 figure()
@@ -50,6 +52,6 @@ line('XData', [ (len1+len2+len3+len4) (len1+len2+len3+len4+len5)], 'YData', [(me
 
 
 
-axis([0 700 -0.15 0.15])
+axis([0 270 -0.15 0.15])
 
 
