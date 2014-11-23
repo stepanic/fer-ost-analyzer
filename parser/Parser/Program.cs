@@ -16,7 +16,7 @@ namespace Parser
         static void Main(string[] args)
         {
             //Config
-            string featureXMLtoCSV = "Phisiology/ECG 2";
+            string featureXMLtoCSV = "Video/Translation Z";
             //END config
             
             #region Util/timestamps.txt

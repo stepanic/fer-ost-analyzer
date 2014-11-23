@@ -1,10 +1,8 @@
-constanta = 2
-
-baseline1 = decimate(ApEn1_baseline1,2)
-neutral1 = decimate(ApEn1_neutral1,2)
-stres = decimate(ApEn1_stres,2)
-neutral2 = decimate(ApEn1_neutral2,2)
-baseline2= decimate(ApEn1_baseline2,2)
+baseline1 = ApEn1_baseline1
+neutral1 = ApEn1_neutral1
+stres = ApEn1_stres
+neutral2 = ApEn1_neutral2
+baseline2= ApEn1_baseline2
 
 len1 = length(baseline1)
 len2 = length(neutral1)
@@ -52,6 +50,6 @@ line('XData', [ (len1+len2+len3+len4) (len1+len2+len3+len4+len5)], 'YData', [(me
 
 
 
-axis([0 270 0.2 1.2])
+axis([0 700 0.2 1.2])
 
 

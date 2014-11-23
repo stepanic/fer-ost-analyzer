@@ -5,16 +5,16 @@
 % Load transformed CSV file from timestamps.txt to timestamps.csv
 % FORMAT:  Time,Info,Type,Stamped Object Type,Label
 % EXAMPLE: 00:00:52.9189698,Plus.jpg,StimuliStart,Image,Start IMG 1
-file_timestamps = fopen('Util/timestamps.csv');
-ts = textscan(file_timestamps,'%s%s%s%s%s','delimiter',',');
-fclose(file_timestamps);
+%file_timestamps = fopen('Util/timestamps.csv');
+%ts = textscan(file_timestamps,'%s%s%s%s%s','delimiter',',');
+%fclose(file_timestamps);
 
 % LOAD data from CSV, which are transformed from XML 
 % <X>data_x</X><Y>data_y</Y>    to     data_x,data_y
-ECG_XY = csvread('Phisiology/ECG 1.csv');
-GSR_XY  = csvread('Phisiology/GSR.csv');
+%ECG_XY = csvread('Phisiology/ECG 1.csv');
+%GSR_XY  = csvread('Phisiology/GSR.csv');
 %hr = csvread('Phisiology\HR.csv');
-frequency = 256; % READ from presentation, find is L1, L2 or L3 level
+%frequency = 256; % READ from presentation, find is L1, L2 or L3 level
 
 % DEMO, how to get data
 % timestamp - second column (Info), 10th row - matrix syntax {column}{row}
@@ -24,10 +24,10 @@ frequency = 256; % READ from presentation, find is L1, L2 or L3 level
 
 % Implement statistic and all other analyze with loaded data
 % ...
-ecg=ECG_XY(:,2);
-sc=GSR_XY(:,2);
-HDR=qrsdetect(ecg,frequency,2)
-QRSI_new=HDR.EVENT.POS;
+%ecg=ECG_XY(:,2);
+%sc=GSR_XY(:,2);
+%HDR=qrsdetect(ecg,frequency,2)
+%QRSI_new=HDR.EVENT.POS;
 %examine_HDR
 %examine_HDR
 %examine_HDR
