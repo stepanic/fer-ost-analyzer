@@ -9,4 +9,6 @@ fclose(file_timestamps);
 % <X>data_x</X><Y>data_y</Y>    to     data_x,data_y
 hr = csvread('Phisiology/HR.csv');
 gsr  = csvread('Phisiology/GSR.csv');
-frequency = 256; % READ from presentation, find is L1, L2 or L3 level
+frequencyGSR = 256; % READ from presentation, find is L1, L2 or L3 level
+frequencyHR = 8;
+

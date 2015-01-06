@@ -1,0 +1,12 @@
+function plottanje(
+
+
+len1 = length(baseline1)
+len2 = length(neutral1)
+len3 = length(stres)
+len4 = length(neutral2)
+len5 = length(baseline2)
+
+
+figure()
+plot((1:length(decimate(),baseline1)

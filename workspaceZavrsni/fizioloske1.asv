@@ -1,0 +1,8 @@
+HR = hr(:,2);
+GSR =  gsr(:,2);
+
+baseline1 = HR(stimuli.start(1) * 8 : stimuli.stop(1)*8);
+neutral1 = HR(stimuli.start(2) * 8 : stimuli.stop(2)*8);
+stres = HR(stimuli.start(3) * 8 : stimuli.stop(3)*8);
+neutral2 = HR(stimuli.start(4) * 8 : stimuli.stop(4)*8);
+baseline1 = HR(stimuli.start(1) * 8 : stimuli.stop(1)*8);
