@@ -16,14 +16,14 @@ namespace Parser
         static void Main(string[] args)
         {
             //Config
-            string featureXMLtoCSV = "Video/Translation Z";
+            string featureXMLtoCSV = "Phisiology/HR";
             //END config
             
             #region Util/timestamps.txt
-            using (TextReader reader = File.OpenText("DemoData/Util/timestamps.txt"))
+            using (TextReader reader = File.OpenText("DemoData1161/Util/timestamps.txt"))
             {
                 string filePath = @"Z:\TEMP_MATIJA\Paradigma - OST 2014\";
-                TextWriter writer = new StreamWriter("DemoData/Util/timestamps.csv");
+                TextWriter writer = new StreamWriter("DemoData1161/Util/timestamps.csv");
                 var csvw = new CsvWriter(writer);
                 var csv = new CsvReader(reader);
                 csv.Configuration.Delimiter = "\t";
@@ -57,10 +57,10 @@ namespace Parser
             #endregion
 
             #region XML to CSV of all <X>data_x</X><Y>data_y</Y> to data,data
-            TextWriter dataWriter = new StreamWriter("DemoData/" + featureXMLtoCSV + ".csv");
+            TextWriter dataWriter = new StreamWriter("DemoData1161/" + featureXMLtoCSV + ".csv");
             using (CsvWriter csvw = new CsvWriter(dataWriter))
             {
-                XmlTextReader reader = new XmlTextReader("DemoData/" + featureXMLtoCSV + ".xml");
+                XmlTextReader reader = new XmlTextReader("DemoData1161/" + featureXMLtoCSV + ".xml");
                 int counter = 0;
                 while (reader.Read())
                 {
