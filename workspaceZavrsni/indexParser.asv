@@ -1,0 +1,9 @@
+function time = indexParser(x)
+str = ts{1,1}{x,1};
+[hour, remain] = strtok(remain, ':')
+
+hour = ts{1,1}{x,1}strsplit(str,delimiter)
+minute = strsplit(00:02:28.4495722,':')
+
+
+index = ts{1,1}{x,1}

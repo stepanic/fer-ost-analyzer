@@ -12,3 +12,4 @@ gsr  = csvread('Phisiology/GSR.csv');
 frequencyGSR = 256; % READ from presentation, find is L1, L2 or L3 level
 frequencyHR = 8;
 
+F0 = csvread('Audio/F0.csv');
