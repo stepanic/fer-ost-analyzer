@@ -1,18 +1,18 @@
 HR = hr(:,2);
 GSR =  gsr(:,2);
 
-HR_b1 = HR(stimuli.start(1) * 8 : stimuli.stop(1)*8);
-HR_n1 = HR(stimuli.start(2) * 8 : stimuli.stop(2)*8);
-HR_s = HR(stimuli.start(3) * 8 : stimuli.stop(3)*8);
-HR_n2 = HR(stimuli.start(4) * 8 : stimuli.stop(4)*8);
-HR_b2 = HR(stimuli.start(5) * 8 : stimuli.stop(5)*8);
+HR_b1 = HR(floor(stimuli.start(1) * 8) : floor(stimuli.stop(1)*8));
+HR_n1 = HR(floor(stimuli.start(2) * 8) : floor(stimuli.stop(2)*8));
+HR_s = HR(floor(stimuli.start(3) * 8) : floor(stimuli.stop(3)*8));
+HR_n2 = HR(floor(stimuli.start(4) * 8) : floor(stimuli.stop(4)*8));
+HR_b2 = HR(floor(stimuli.start(5) * 8) : floor(stimuli.stop(5)*8));
 
 
-GSR_b1 = GSR(stimuli.start(1) * 256 : stimuli.stop(1)*256);
-GSR_n1 = GSR(stimuli.start(2) * 256 : stimuli.stop(2)*256);
-GSR_s = GSR(stimuli.start(3) * 256 : stimuli.stop(3)*256);
-GSR_n2 = GSR(stimuli.start(4) * 256 : stimuli.stop(4)*256);
-GSR_b2 = GSR(stimuli.start(5) * 256 : stimuli.stop(5)*256);
+GSR_b1 = GSR(floor(stimuli.start(1) * 256) : floor(stimuli.stop(1)*256));
+GSR_n1 = GSR(floor(stimuli.start(2) * 256) : floor(stimuli.stop(2)*256));
+GSR_s = GSR(floor(stimuli.start(3) * 256) : floor(stimuli.stop(3)*256));
+GSR_n2 = GSR(floor(stimuli.start(4) * 256) : floor(stimuli.stop(4)*256));
+GSR_b2 = GSR(floor(stimuli.start(5) * 256) : floor(stimuli.stop(5)*256));
 
 mean_HR_b1 = mean(HR_b1);
 std_HR_b1 = std(HR_b1);
