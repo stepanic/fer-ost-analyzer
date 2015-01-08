@@ -4,16 +4,17 @@ stimuli.class(3) = 3;
 stimuli.class(4) = 4;
 stimuli.class(5) = 5;
 
-stimuli.start(1) = 1*60 + 28.39;
-stimuli.stop(1) = 2*60 + 28.45;
-stimuli.start(2) = 2*60 + 28.45;
-stimuli.stop(2) = 5*60 + 38.39;
-stimuli.start(3) = 5*60 + 38.39;
-stimuli.stop(3) = 7*60 + 27.39;
-stimuli.start(4) = 7*60 + 27.39;
-stimuli.stop(4) = 10*60 +32.39;
-stimuli.start(5) = 10*60 + 35.40;
-stimuli.stop(5) = 11*60 + 35.42;
+
+stimuli.start(1) = indexParser(1,ts);
+stimuli.stop(1) = indexParser(3,ts);
+stimuli.start(2) = indexParser(2,ts);
+stimuli.stop(2) = indexParser(32,ts);
+stimuli.start(3) = indexParser(33,ts);
+stimuli.stop(3) = indexParser(50,ts);
+stimuli.start(4) = indexParser(51,ts);
+stimuli.stop(4) = indexParser(80,ts);
+stimuli.start(5) = indexParser(83,ts);
+stimuli.stop(5) = indexParser(84,ts);
 
 stimuli.number = 5;
 
