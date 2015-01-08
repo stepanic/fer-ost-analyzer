@@ -16,5 +16,5 @@ frequencyGSR = 256; % READ from presentation, find is L1, L2 or L3 level
 frequencyHR = 8;
 
 F0 = csvread(strcat(path, 'Audio/F0.csv'));
-
 jitterLocal = csvread(strcat(path,'Audio/jitterLocal.csv'));
+vadBin = csvread(strcat(path,'Audio/vadBin.csv'));

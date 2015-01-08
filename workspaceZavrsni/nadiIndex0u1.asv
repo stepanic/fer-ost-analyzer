@@ -1,0 +1,6 @@
+function [index] = nadiIndex0u1(tempVadBin)
+    len = length(tempVadBin);
+    for (
+index = ;
+
+
