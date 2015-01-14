@@ -22,16 +22,16 @@ hold on
 
 plot((1:len1),b1)
 hold on
-line('XData', [len1 len1], 'YData', [0 120], 'LineStyle', '-', 'LineWidth', 2, 'Color','m')
+line('XData', [len1 len1], 'YData', [ymin ymax], 'LineStyle', '-', 'LineWidth', 2, 'Color','m')
 plot(((len1+1):(len1+len2)),n1)
-line('XData', [(len1+len2) (len1+len2)], 'YData', [0 120], 'LineStyle', '-', 'LineWidth', 2, 'Color','m')
+line('XData', [(len1+len2) (len1+len2)], 'YData', [ymin ymax], 'LineStyle', '-', 'LineWidth', 2, 'Color','m')
 plot(((len1 + len2 +1):(len1+len2+ len3)),s)
-line('XData', [(len1+len2+len3) (len1+len2+len3)], 'YData', [0 120], 'LineStyle', '-', 'LineWidth', 2, 'Color','m')
+line('XData', [(len1+len2+len3) (len1+len2+len3)], 'YData', [ymin ymax], 'LineStyle', '-', 'LineWidth', 2, 'Color','m')
 plot(((len1 + len2 + len3 +1):(len1+len2+ len3 + len4)),n2)
-line('XData', [(len1+len2+len3+len4) (len1+len2+len3+len4)], 'YData', [0 120], 'LineStyle', '-', 'LineWidth', 2, 'Color','m')
+line('XData', [(len1+len2+len3+len4) (len1+len2+len3+len4)], 'YData', [ymin ymax], 'LineStyle', '-', 'LineWidth', 2, 'Color','m')
 plot(((len1 + len2 + len3 + len4 +1):(len1+len2+ len3 + len4 + len5)),b2)
-line('XData', [(len1+len2+len3+len4+len5) (len1+len2+len3+len4+len5)], 'YData', [0 120], 'LineStyle', '-', 'LineWidth', 2, 'Color','k')
-line('XData', [(len1+len2+len3+len4+2) (len1+len2+len3+len4+2)], 'YData', [0 120], 'LineStyle', '-', 'LineWidth', 2, 'Color','m')
+line('XData', [(len1+len2+len3+len4+len5) (len1+len2+len3+len4+len5)], 'YData', [ymin ymax], 'LineStyle', '-', 'LineWidth', 2, 'Color','k')
+line('XData', [(len1+len2+len3+len4+2) (len1+len2+len3+len4+2)], 'YData', [ymin ymax], 'LineStyle', '-', 'LineWidth', 2, 'Color','m')
 
 
 line('XData', [ 1 len1], 'YData', [(mean(b1) + std(b1)) (mean(b1) + std(b1))], 'LineStyle', ':', 'LineWidth', 2, 'Color','r')

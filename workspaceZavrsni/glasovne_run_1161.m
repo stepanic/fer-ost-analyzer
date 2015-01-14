@@ -1,5 +1,6 @@
 clear
 clc
-path = 'data zavrsni/DemoData1161/';
+path = '../data zavrsni/DemoData1161/';
 ucitavanje
 postavljanjeStimuli
+glasovne1

@@ -48,6 +48,8 @@ tmp = floor(100*(indexParser(83,ts)-0.19));
 F0_b2_2 = F0(tmp : tmp + 1000);
 
 
+glasovneAllData = allDataGenerator(F0_b1_2,F0_n1_2,F0_s_2,F0_n2_2,F0_b2_2);
+
 
 
  
