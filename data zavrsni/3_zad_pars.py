@@ -11,7 +11,7 @@ def parseLine(line):
 
 def main():
 	folder = []
-	#folder.append("DemoData1160/Video")
+	folder.append("DemoData1160/Video")
 	folder.append("DemoData1161/Video")
 	print folder
 	

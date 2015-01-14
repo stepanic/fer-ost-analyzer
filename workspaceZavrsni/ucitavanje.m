@@ -18,3 +18,9 @@ frequencyHR = 8;
 F0 = csvread(strcat(path, 'Audio/F0.csv'));
 jitterLocal = csvread(strcat(path,'Audio/jitterLocal.csv'));
 vadBin = csvread(strcat(path,'Audio/vadBin.csv'));
+
+facialTime = csvread(strcat(path, 'Video/time.csv'));
+facialTime = facialTime/1000;
+facialODA = csvread(strcat(path, 'Video/Overall_Dist_Activity.csv'));
+facial3DReal = csvread(strcat(path, 'Video/8,3 (D)(3DRel).csv'));
+facialEye = csvread(strcat(path, 'Video/Eye Closure X.csv'));
