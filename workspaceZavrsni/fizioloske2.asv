@@ -1,6 +1,6 @@
-window_length = 20
-% dataHR = feature_calculation(stimuli,8,20,1,HR,HR,[],0,0)
-% dataGSR = feature_calculation(stimuli,256,20,1,GSR,GSR,[],0,0)
+window_length = 20;
+%dataHR = feature_calculation(stimuli,8,20,1,HR,HR,[],0,0)
+%dataGSR = feature_calculation(stimuli,256,20,1,GSR,GSR,[],0,0)
 
 ind_b1_HR = find(dataHR.data.class==1);
 STD_b1_HR = dataHR.data.features(ind_b1_HR,2);

@@ -1,6 +1,6 @@
-window_length = 20
-dataHR = feature_calculation(stimuli,8,20,1,HR,HR,[],0,0)
-dataGSR = feature_calculation(stimuli,256,20,1,GSR,GSR,[],0,0)
+window_length = 20;
+%dataHR = feature_calculation(stimuli,8,20,1,HR,HR,[],0,0)
+%dataGSR = feature_calculation(stimuli,256,20,1,GSR,GSR,[],0,0)
 
 ind_b1_HR = find(dataHR.data.class==1);
 STD_b1_HR = dataHR.data.features(ind_b1_HR,2);
@@ -25,4 +25,5 @@ STD_n2_GSR = dataGSR.data.features(ind_n2_GSR,16);
 ind_b2_GSR = find(dataGSR.data.class==5);
 STD_b2_GSR = dataGSR.data.features(ind_b2_GSR,16);
 
+STD_GSR = allDataGenerator(STD_b1_GSR, STD_n1_GSR, STD_s_GSR, STD_n2_GSR, STD_b2_GSR);
 
