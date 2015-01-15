@@ -29,3 +29,7 @@ else
     t_rise = (index_max - index_min)/8;
 end
 
+d_h = max_value - min_value;
+
+%plottanje_5_5(plot_array, index_max, index_min, min_value, max_value, t_stres)
+
