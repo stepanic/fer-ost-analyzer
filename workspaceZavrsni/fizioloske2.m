@@ -1,6 +1,6 @@
 window_length = 20;
-%dataHR = feature_calculation(stimuli,8,20,1,HR,HR,[],0,0)
-%dataGSR = feature_calculation(stimuli,256,20,1,GSR,GSR,[],0,0)
+dataHR = feature_calculation(stimuli,8,20,1,HR,HR,[],0,0);
+dataGSR = feature_calculation(stimuli,256,20,1,GSR,GSR,[],0,0);
 
 ind_b1_HR = find(dataHR.data.class==1);
 STD_b1_HR = dataHR.data.features(ind_b1_HR,2);
@@ -41,4 +41,7 @@ std_s_hr = transpose([nan_val, transpose(STD_s_HR), nan_val]);
 std_n2_hr = transpose([nan_val, transpose(STD_n2_HR), nan_val]);
 std_b2_hr = transpose([nan_val, transpose(STD_b2_HR), nan_val]);
 
+% GSR
 %plottanje_5_2(std_b1_gsr, std_n1_gsr, std_s_gsr, std_n2_gsr, std_b2_gsr)
+% HR
+%plottanje_5_2(std_b1_hr, std_n1_hr, std_s_hr, std_n2_hr, std_b2_hr)
