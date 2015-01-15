@@ -12,6 +12,8 @@ len(3) = i4 - i3;
 len(4) = i4e - i4 +1;
 len(5) = i5e - i5 + 1;
 
+
+
 b1_i = len(1);
 n1_i = len(1) + len(2);
 s_i = len(1) + len(2) + len(3);
@@ -25,11 +27,19 @@ t2 = facialTime(i5:i5e);
 fac_time = transpose([transpose(t1), transpose(t2)]);
 fac_time = fac_time - fac_time(1);
 
+time(1) = fac_time(len(1));
+time(2) = fac_time(len(1) + len(2));
+time(3) = fac_time(len(1) + len(2) + len(3));
+time(4) = fac_time(len(1) + len(2) + len(3) + len(4));
+time(5) = fac_time(len(1) + len(2) + len(3) + len(4) + len(5));
+
+
 
 o1 = facialODA(i1:i4e);
 o2 = facialODA(i5:i5e);
 oda = transpose([transpose(o1), transpose(o2)]);
 oda_smooth = smooth(oda, 150);
+
 
 e1 = facialEye(i1:i4e);
 e2 = facialEye(i5:i5e);
