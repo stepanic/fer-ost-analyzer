@@ -12,6 +12,8 @@ len(3) = i4 - i3;
 len(4) = i4e - i4 +1;
 len(5) = i5e - i5 + 1;
 
+
+
 b1_i = len(1);
 n1_i = len(1) + len(2);
 s_i = len(1) + len(2) + len(3);
@@ -24,6 +26,13 @@ t1 = facialTime(i1:i4e);
 t2 = facialTime(i5:i5e);
 fac_time = transpose([transpose(t1), transpose(t2)]);
 fac_time = fac_time - fac_time(1);
+
+time(1) = fac_time(len(1));
+time(2) = fac_time(len(1) + len(2));
+time(3) = fac_time(len(1) + len(2) + len(3));
+time(4) = fac_time(len(1) + len(2) + len(3) + len(4));
+time(5) = fac_time(len(1) + len(2) + len(3) + len(4) + len(5));
+
 
 
 o1 = facialODA(i1:i4e);
@@ -41,4 +50,3 @@ r1 = facial3DReal(i1:i4e);
 r2 = facial3DReal(i5:i5e);
 rel = transpose([transpose(r1), transpose(r2)]);
 rel_smooth = smooth(rel, 150);
-rel_data = allDataGenerator(rel_smooth);
