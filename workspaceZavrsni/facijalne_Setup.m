@@ -12,6 +12,13 @@ t3 = facialTime(i3:i4-1);
 t4 = facialTime(i4:i4e);
 t5 = facialTime(i5:i5e);
 
+len(1) = length(t1);
+len(2) = length(t2);
+len(3) = length(t3);
+len(4) = length(t4);
+len(5) = length(t5);
+
+
 t1 = t1-t1(1);
 t2 = t2-t1(1);
 t3 = t3-t1(1);
