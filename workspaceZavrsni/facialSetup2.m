@@ -12,6 +12,14 @@ len(3) = i4 - i3;
 len(4) = i4e - i4 +1;
 len(5) = i5e - i5 + 1;
 
+b1_i = len(1);
+n1_i = len(1) + len(2);
+s_i = len(1) + len(2) + len(3);
+n2_i = s_i + len(4);
+b2_i = n2_i + len(5);
+
+
+
 t1 = facialTime(i1:i4e);
 t2 = facialTime(i5:i5e);
 fac_time = transpose([transpose(t1), transpose(t2)]);
