@@ -23,6 +23,7 @@ o2 = facialODA(i5:i5e);
 oda = transpose([transpose(o1), transpose(o2)]);
 oda_smooth = smooth(oda, 150);
 
+
 e1 = facialEye(i1:i4e);
 e2 = facialEye(i5:i5e);
 eye = transpose([transpose(e1), transpose(e2)]);
@@ -32,3 +33,4 @@ r1 = facial3DReal(i1:i4e);
 r2 = facial3DReal(i5:i5e);
 rel = transpose([transpose(r1), transpose(r2)]);
 rel_smooth = smooth(rel, 150);
+rel_data = allDataGenerator(rel_smooth);
