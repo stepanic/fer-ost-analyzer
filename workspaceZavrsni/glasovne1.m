@@ -11,6 +11,7 @@ F0_b2 = F0(floor(100*(stimuli.start(5)-0.19)) : floor(100*(stimuli.stop(5)-0.19)
 % baseline_1
 tmp = floor(100*(indexParser(1,ts)-0.19));
 F0_b1_2 = F0(tmp : tmp + 1000);
+F0_b1_2(F0_b1_2 == 0) = NaN;
 % neutral_1
 tmp = floor(100*(indexParser(7,ts)-0.19));
 F0_n1_21 = F0(tmp : tmp + 1000);
@@ -23,6 +24,7 @@ F0_n1_24 = F0(tmp : tmp + 1000);
 tmp = floor(100*(indexParser(31,ts)-0.19));
 F0_n1_25 = F0(tmp : tmp + 1000);
 F0_n1_2 = transpose([transpose(F0_n1_21), transpose(F0_n1_22), transpose(F0_n1_23), transpose(F0_n1_24), transpose(F0_n1_25)]);
+F0_n1_2(F0_n1_2 == 0) = NaN;
 % stres
 tmp = floor(100*(indexParser(37,ts)-0.19));
 F0_s_21 = F0(tmp : tmp + 1000);
@@ -31,6 +33,7 @@ F0_s_22 = F0(tmp : tmp + 1000);
 tmp = floor(100*(indexParser(49,ts)-0.19));
 F0_s_23 = F0(tmp : tmp + 1000);
 F0_s_2 = transpose([transpose(F0_s_21), transpose(F0_s_22), transpose(F0_s_23)]);
+F0_s_2(F0_s_2 == 0) = NaN;
 % neutral_2
 tmp = floor(100*(indexParser(55,ts)-0.19));
 F0_n2_21 = F0(tmp : tmp + 1000);
@@ -43,9 +46,11 @@ F0_n2_24 = F0(tmp : tmp + 1000);
 tmp = floor(100*(indexParser(79,ts)-0.19));
 F0_n2_25 = F0(tmp : tmp + 1000);
 F0_n2_2 = transpose([transpose(F0_n2_21), transpose(F0_n2_22), transpose(F0_n2_23), transpose(F0_n2_24), transpose(F0_n2_25)]);
+F0_n2_2(F0_n2_2 == 0) = NaN;
 % baseline_2
 tmp = floor(100*(indexParser(83,ts)-0.19));
 F0_b2_2 = F0(tmp : tmp + 1000);
+F0_b2_2(F0_b2_2 == 0) = NaN;
 
 
 glasovneAllData = allDataGenerator(F0_b1_2,F0_n1_2,F0_s_2,F0_n2_2,F0_b2_2);
