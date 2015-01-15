@@ -26,4 +26,5 @@ ind_b2_GSR = find(dataGSR.data.class==5);
 STD_b2_GSR = dataGSR.data.features(ind_b2_GSR,16);
 
 STD_GSR = allDataGenerator(STD_b1_GSR, STD_n1_GSR, STD_s_GSR, STD_n2_GSR, STD_b2_GSR);
+STD_HR = allDataGenerator(STD_b1_HR, STD_n1_HR, STD_s_HR, STD_n2_HR, STD_b2_HR);
 
