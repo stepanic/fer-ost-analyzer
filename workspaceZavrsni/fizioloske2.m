@@ -28,3 +28,17 @@ STD_b2_GSR = dataGSR.data.features(ind_b2_GSR,16);
 STD_GSR = allDataGenerator(STD_b1_GSR, STD_n1_GSR, STD_s_GSR, STD_n2_GSR, STD_b2_GSR);
 STD_HR = allDataGenerator(STD_b1_HR, STD_n1_HR, STD_s_HR, STD_n2_HR, STD_b2_HR);
 
+nan_val = [NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN, NaN];
+
+std_b1_gsr = transpose([nan_val, transpose(STD_b1_GSR), nan_val]);
+std_n1_gsr = transpose([nan_val, transpose(STD_n1_GSR), nan_val]);
+std_s_gsr = transpose([nan_val, transpose(STD_s_GSR), nan_val]);
+std_n2_gsr = transpose([nan_val, transpose(STD_n2_GSR), nan_val]);
+std_b2_gsr = transpose([nan_val, transpose(STD_b2_GSR), nan_val]);
+std_b1_hr = transpose([nan_val, transpose(STD_b1_HR), nan_val]);
+std_n1_hr = transpose([nan_val, transpose(STD_n1_HR), nan_val]);
+std_s_hr = transpose([nan_val, transpose(STD_s_HR), nan_val]);
+std_n2_hr = transpose([nan_val, transpose(STD_n2_HR), nan_val]);
+std_b2_hr = transpose([nan_val, transpose(STD_b2_HR), nan_val]);
+
+%plottanje_5_2(std_b1_gsr, std_n1_gsr, std_s_gsr, std_n2_gsr, std_b2_gsr)
