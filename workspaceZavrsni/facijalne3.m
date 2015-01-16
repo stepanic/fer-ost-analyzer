@@ -10,9 +10,10 @@ for i=1:28
         fac_f0(i) = (fac_time(temp_t(i+1)-1) - fac_time(temp_t(i)))*1000;
     end
 end
-bar(1:28, fac_f0);
+%bar(1:28, fac_f0);
 number_of_zeros(1:28)=NaN;
 for i=1:28
-    number_of_zeros(i) = length(find(eye(temp_t(i):temp_t(i+1))==0));
+    bla = length(eye(temp_t(1): temp_t(i+1))) + 1;
+    number_of_zeros(i) = length(find(eye(temp_t(i):temp_t(i+1))==0))*100/bla;
 end
 % bar(1:28, number_of_zeros)
