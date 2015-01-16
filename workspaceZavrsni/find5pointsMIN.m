@@ -1,4 +1,4 @@
-function [points] = find5points(temp_jL_s,tempIndex)
+function [points] = find5pointsMIN(temp_jL_s,tempIndex)
 p1 = 0;
 p2 = 0;
 p3 = 0;
@@ -6,24 +6,24 @@ p4 = 0;
 p5 = 0;
 
 if((tempIndex + 81) < length(temp_jL_s))
-    p1 = max(temp_jL_s(tempIndex : tempIndex + 81));
+    p1 = mean(temp_jL_s(tempIndex : tempIndex + 81));
     tempIndex = tempIndex + 81;
 end
 
 if((tempIndex + 81) < length(temp_jL_s))
-    p2 = max(temp_jL_s(tempIndex : tempIndex + 81));
+    p2 = mean(temp_jL_s(tempIndex : tempIndex + 81));
     tempIndex = tempIndex + 81;
 end
 if((tempIndex + 81) < length(temp_jL_s))
-    p3 = max(temp_jL_s(tempIndex : tempIndex + 81));
+    p3 = mean(temp_jL_s(tempIndex : tempIndex + 81));
     tempIndex = tempIndex + 81;
 end
 if((tempIndex + 81) < length(temp_jL_s))
-    p4 = max(temp_jL_s(tempIndex : tempIndex + 81));
+    p4 = mean(temp_jL_s(tempIndex : tempIndex + 81));
     tempIndex = tempIndex + 81;
 end
 if((tempIndex + 81) < length(temp_jL_s))
-    p5 = max(temp_jL_s(tempIndex : tempIndex + 81));
+    p5 = mean(temp_jL_s(tempIndex : tempIndex + 81));
 end
 
 p1(p1 == 0) = NaN;
