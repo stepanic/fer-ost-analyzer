@@ -14,7 +14,7 @@ ymax = max([max(normal_array), max(smooth_array)]) * 1.01;
 
 figure();
 hold on
-plot(time, normal_array, time, smooth_array)
+plot(time, smooth_array, time, normal_array)
 
 % plot((1:len1),b1)
 % hold on

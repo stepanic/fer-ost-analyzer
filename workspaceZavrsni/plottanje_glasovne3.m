@@ -20,6 +20,7 @@ for i=1:5
     plot(i,p2(i),'k*','LineWidth',1)
 end
 
+%plottanje_glasovne3(v6_3_1,v6_3_2,v6_3_3)
 plot((1:5),p3,'r')
 for i=1:5
     plot(i,p3(i),'k*','LineWidth',1)
