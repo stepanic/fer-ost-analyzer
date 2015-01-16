@@ -1,4 +1,4 @@
-function [points] = find5pointsMIN(temp_jL_s,tempIndex)
+function [points] = find5pointsMEAN(temp_jL_s,tempIndex)
 p1 = 0;
 p2 = 0;
 p3 = 0;
