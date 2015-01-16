@@ -1,7 +1,7 @@
 function plot_facial(mv, sv, normal_array, smooth_array, tl, time)
 
 % plot_facial(data_rel{1,1}, data_rel{1,2}, rel, rel_smooth, time, fac_time)
-% plot_facial(data_rel{1,1}, data_rel{1,2}, oda, oda_smooth, time, fac_time)
+% plot_facial(data_oda{1,1}, data_oda{1,2}, oda, oda_smooth, time, fac_time)
 % len3 = length(s);
 % len4 = length(n2);
 % len5 = length(b2);
@@ -14,7 +14,7 @@ ymax = max([max(normal_array), max(smooth_array)]) * 1.01;
 
 figure();
 hold on
-plot(time, normal_array, time, smooth_array)
+plot(time, smooth_array, time, normal_array)
 
 % plot((1:len1),b1)
 % hold on
