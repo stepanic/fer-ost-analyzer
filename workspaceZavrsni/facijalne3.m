@@ -15,4 +15,4 @@ number_of_zeros(1:28)=NaN;
 for i=1:28
     number_of_zeros(i) = length(find(eye(temp_t(i):temp_t(i+1))==0));
 end
-bar(1:28, number_of_zeros)
+% bar(1:28, number_of_zeros)
