@@ -34,10 +34,10 @@ line('XData', [(len1+len2+len3+len4+len5) (len1+len2+len3+len4+len5)], 'YData', 
 line('XData', [(len1+len2+len3+len4+2) (len1+len2+len3+len4+2)], 'YData', [ymin ymax], 'LineStyle', '-', 'LineWidth', 2, 'Color','m')
 
 b1 = b1(11:length(b1) - 10);
-n1 = n1(11:length(b1) - 10);
-s = s(11:length(b1) - 10);
-n2 = n2(11:length(b1) - 10);
-b2 = b2(11:length(b1) - 10);
+n1 = n1(11:length(n1) - 10);
+s = s(11:length(s) - 10);
+n2 = n2(11:length(n2) - 10);
+b2 = b2(11:length(b2) - 10);
 
 line('XData', [ 1 len1], 'YData', [(mean(b1) + std(b1)) (mean(b1) + std(b1))], 'LineStyle', ':', 'LineWidth', 2, 'Color','r')
 line('XData', [ len1 (len1+len2)], 'YData', [(mean(n1) + std(n1)) (mean(n1) + std(n1))], 'LineStyle', ':', 'LineWidth', 2, 'Color','r')

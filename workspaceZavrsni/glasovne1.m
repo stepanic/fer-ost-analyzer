@@ -7,6 +7,26 @@ F0_s = F0(floor(100*(stimuli.start(3)-0.19)) : floor(100*(stimuli.stop(3)-0.19))
 F0_n2 = F0(floor(100*(stimuli.start(4)-0.19)) : floor(100*(stimuli.stop(4)-0.19)));
 F0_b2 = F0(floor(100*(stimuli.start(5)-0.19)) : floor(100*(stimuli.stop(5)-0.19)));
 
+%Igor je radio pizdarije, this is the real shit
+% F0_b1_2_0 = F0_b1(F0_b1>0);
+% F0_b1_2 = F0_b1;
+% F0_b1_2(F0_b1_2 == 0) = NaN;
+% 
+% F0_n1_2_0 = F0_n1(F0_n1>0);
+% F0_n1_2 = F0_n1;
+% F0_n1_2(F0_n1_2 == 0) = NaN;
+% 
+% F0_s_2_0 = F0_s(F0_s>0);
+% F0_s_2 = F0_s;
+% F0_s_2(F0_s_2 == 0) = NaN;
+% 
+% F0_n2_2_0 = F0_n2(F0_n2>0);
+% F0_n2_2 = F0_n2;
+% F0_n2_2(F0_n2_2 == 0) = NaN;
+% 
+% F0_b2_2_0 = F0_b2(F0_b2>0);
+% F0_b2_2 = F0_b2;
+% F0_b2_2(F0_b2_2 == 0) = NaN;
 %ovo je za zadatak 1 drugi graf
 % baseline_1
 tmp = floor(100*(indexParser(1,ts)-0.19));

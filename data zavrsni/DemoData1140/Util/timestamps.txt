@@ -1,0 +1,87 @@
+Time	Release Time	Info	Type	Stamped Object Type	Label
+00:01:15.8595071			StimPlayerStart		START
+00:01:17.2431454		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 1
+00:02:17.4126476		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\1 - 708.wav	StimuliStart	Sound	Start AUD 1
+00:02:17.4128773		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 1
+00:02:17.4129026		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\1 - 7211.jpg	StimuliStart	Image	Start IMG 2
+00:02:20.2329419		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\1 - 708.wav	StimuliEnd	Sound	End AUD 1
+00:02:20.2331063		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\1 - 7211.jpg	StimuliEnd	Image	End IMG 2
+00:02:20.2331306		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 3
+00:02:45.2244486		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 3
+00:02:45.2245149		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\4 - 7031.jpg	StimuliStart	Image	Start IMG 4
+00:02:45.3456946		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\4 - 722.wav	StimuliStart	Sound	Start AUD 2
+00:02:48.2396608		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\4 - 722.wav	StimuliEnd	Sound	End AUD 2
+00:02:48.2398335		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\4 - 7031.jpg	StimuliEnd	Image	End IMG 4
+00:02:48.2398569		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 5
+00:03:28.2235475		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 5
+00:03:28.2235992		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\10 - 5820.jpg	StimuliStart	Image	Start IMG 6
+00:03:28.3172025		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\10 - 172.wav	StimuliStart	Sound	Start AUD 3
+00:03:31.2345316		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\10 - 172.wav	StimuliEnd	Sound	End AUD 3
+00:03:31.2477763		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\10 - 5820.jpg	StimuliEnd	Image	End IMG 6
+00:03:31.2478285		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 7
+00:04:16.2386500		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 7
+00:04:16.2387168		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\13 - 5831.jpg	StimuliStart	Image	Start IMG 8
+00:04:16.3647517		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\13 - 150.wav	StimuliStart	Sound	Start AUD 4
+00:04:19.2420663		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\13 - 150.wav	StimuliEnd	Sound	End AUD 4
+00:04:19.2425914		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\13 - 5831.jpg	StimuliEnd	Image	End IMG 8
+00:04:19.2426285		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 9
+00:04:59.3746450		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\14 - 151.wav	StimuliStart	Sound	Start AUD 5
+00:04:59.3749551		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 9
+00:04:59.3749981		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\14 - 5201.jpg	StimuliStart	Image	Start IMG 10
+00:05:02.2420170		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\14 - 151.wav	StimuliEnd	Sound	End AUD 5
+00:05:02.2425583		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\14 - 5201.jpg	StimuliEnd	Image	End IMG 10
+00:05:02.2425963		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 11
+00:05:27.2387548		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 11
+00:05:27.2388377		Z:\TEMP_MATIJA\Paradigma - OST 2014\Affective\Prijedlog najjaci\1 8 - a0.jpg	StimuliStart	Image	Start IMG 12
+00:05:27.3586614		Z:\TEMP_MATIJA\Paradigma - OST 2014\Affective\Prijedlog najjaci\1 8 - i2.wav	StimuliStart	Sound	Start AUD 6
+00:05:30.2460613		Z:\TEMP_MATIJA\Paradigma - OST 2014\Affective\Prijedlog najjaci\1 8 - i2.wav	StimuliEnd	Sound	End AUD 6
+00:05:30.2464899		Z:\TEMP_MATIJA\Paradigma - OST 2014\Affective\Prijedlog najjaci\1 8 - a0.jpg	StimuliEnd	Image	End IMG 12
+00:05:30.2465251		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 13
+00:06:00.2363007		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 13
+00:06:00.2363621		Z:\TEMP_MATIJA\Paradigma - OST 2014\Affective\Prijedlog najjaci\2 9 - 6260.jpg	StimuliStart	Image	Start IMG 14
+00:06:00.3069791		Z:\TEMP_MATIJA\Paradigma - OST 2014\Affective\Prijedlog najjaci\2 9 - b4.wav	StimuliStart	Sound	Start AUD 7
+00:06:03.2441230		Z:\TEMP_MATIJA\Paradigma - OST 2014\Affective\Prijedlog najjaci\2 9 - b4.wav	StimuliEnd	Sound	End AUD 7
+00:06:03.2448267		Z:\TEMP_MATIJA\Paradigma - OST 2014\Affective\Prijedlog najjaci\2 9 - 6260.jpg	StimuliEnd	Image	End IMG 14
+00:06:03.2448681		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 15
+00:06:48.2363411		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 15
+00:06:48.2364109		Z:\TEMP_MATIJA\Paradigma - OST 2014\Affective\Prijedlog najjaci\3 6 - 3168.jpg	StimuliStart	Image	Start IMG 16
+00:06:48.3919189		Z:\TEMP_MATIJA\Paradigma - OST 2014\Affective\Prijedlog najjaci\3 6 - g2.wav	StimuliStart	Sound	Start AUD 8
+00:06:51.2391532		Z:\TEMP_MATIJA\Paradigma - OST 2014\Affective\Prijedlog najjaci\3 6 - g2.wav	StimuliEnd	Sound	End AUD 8
+00:06:51.2397140		Z:\TEMP_MATIJA\Paradigma - OST 2014\Affective\Prijedlog najjaci\3 6 - 3168.jpg	StimuliEnd	Image	End IMG 16
+00:06:51.2397598		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 17
+00:07:16.2241682		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 17
+00:07:16.2242404		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\13 - 5831.jpg	StimuliStart	Image	Start IMG 18
+00:07:16.2512515		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\13 - 150.wav	StimuliStart	Sound	Start AUD 9
+00:07:19.2482936		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\13 - 150.wav	StimuliEnd	Sound	End AUD 9
+00:07:19.2488320		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\13 - 5831.jpg	StimuliEnd	Image	End IMG 18
+00:07:19.2488710		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 19
+00:07:54.2366571		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 19
+00:07:54.2367444		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\14 - 5201.jpg	StimuliStart	Image	Start IMG 20
+00:07:54.2596703		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\14 - 151.wav	StimuliStart	Sound	Start AUD 10
+00:07:57.2371823		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\14 - 151.wav	StimuliEnd	Sound	End AUD 10
+00:07:57.2378518		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\14 - 5201.jpg	StimuliEnd	Image	End IMG 20
+00:07:57.2379015		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 21
+00:08:27.2552807		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\1 - 708.wav	StimuliStart	Sound	Start AUD 11
+00:08:27.2555114		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 21
+00:08:27.2555509		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\1 - 7211.jpg	StimuliStart	Image	Start IMG 22
+00:08:30.2424905		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\1 - 708.wav	StimuliEnd	Sound	End AUD 11
+00:08:30.2431580		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\1 - 7211.jpg	StimuliEnd	Image	End IMG 22
+00:08:30.2431961		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 23
+00:09:15.2253926		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 23
+00:09:15.2254721		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\10 - 5820.jpg	StimuliStart	Image	Start IMG 24
+00:09:15.2451100		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\10 - 172.wav	StimuliStart	Sound	Start AUD 12
+00:09:18.2324777		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\10 - 172.wav	StimuliEnd	Sound	End AUD 12
+00:09:18.2333062		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\10 - 5820.jpg	StimuliEnd	Image	End IMG 24
+00:09:18.2333423		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 25
+00:09:53.2418883		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 25
+00:09:53.2419858		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\4 - 7031.jpg	StimuliStart	Image	Start IMG 26
+00:09:53.2585234		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\4 - 722.wav	StimuliStart	Sound	Start AUD 13
+00:09:56.2253853		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\4 - 722.wav	StimuliEnd	Sound	End AUD 13
+00:09:56.2258159		Z:\TEMP_MATIJA\Paradigma - OST 2014\Neutral\Konacnih 5\4 - 7031.jpg	StimuliEnd	Image	End IMG 26
+00:09:56.2258549		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 27
+00:10:21.2246851		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 27
+00:10:21.2247572		Z:\TEMP_MATIJA\Paradigma - OST 2014\Cyan.jpg	StimuliStart	Image	Start IMG 28
+00:10:24.2245642		Z:\TEMP_MATIJA\Paradigma - OST 2014\Cyan.jpg	StimuliEnd	Image	End IMG 28
+00:10:24.2246358		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliStart	Image	Start IMG 29
+00:11:24.2339898		Z:\TEMP_MATIJA\Paradigma - OST 2014\Plus.jpg	StimuliEnd	Image	End IMG 29
+00:11:24.2355926			StimPlayerStop		STOP

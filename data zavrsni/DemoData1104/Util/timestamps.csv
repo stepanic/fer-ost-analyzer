@@ -1,0 +1,85 @@
+00:01:01.4364466,Plus.jpg,StimuliStart,Image,Start IMG 7
+00:02:01.4216795,Plus.jpg,StimuliEnd,Image,End IMG 7
+00:02:01.4217502,Neutral\Konacnih 5\1 - 7211.jpg,StimuliStart,Image,Start IMG 8
+00:02:01.5604004,Neutral\Konacnih 5\1 - 708.wav,StimuliStart,Sound,Start AUD 4
+00:02:04.4312759,Neutral\Konacnih 5\1 - 708.wav,StimuliEnd,Sound,End AUD 4
+00:02:04.4314631,Neutral\Konacnih 5\1 - 7211.jpg,StimuliEnd,Image,End IMG 8
+00:02:04.4314909,Plus.jpg,StimuliStart,Image,Start IMG 9
+00:02:29.4205151,Plus.jpg,StimuliEnd,Image,End IMG 9
+00:02:29.4205970,Neutral\Konacnih 5\4 - 7031.jpg,StimuliStart,Image,Start IMG 10
+00:02:29.5008021,Neutral\Konacnih 5\4 - 722.wav,StimuliStart,Sound,Start AUD 5
+00:02:32.4283501,Neutral\Konacnih 5\4 - 722.wav,StimuliEnd,Sound,End AUD 5
+00:02:32.4287953,Neutral\Konacnih 5\4 - 7031.jpg,StimuliEnd,Image,End IMG 10
+00:02:32.4288334,Plus.jpg,StimuliStart,Image,Start IMG 11
+00:03:12.4208033,Plus.jpg,StimuliEnd,Image,End IMG 11
+00:03:12.4208876,Neutral\Konacnih 5\10 - 5820.jpg,StimuliStart,Image,Start IMG 12
+00:03:12.4901037,Neutral\Konacnih 5\10 - 172.wav,StimuliStart,Sound,Start AUD 6
+00:03:15.4277850,Neutral\Konacnih 5\10 - 172.wav,StimuliEnd,Sound,End AUD 6
+00:03:15.4285120,Neutral\Konacnih 5\10 - 5820.jpg,StimuliEnd,Image,End IMG 12
+00:03:15.4285506,Plus.jpg,StimuliStart,Image,Start IMG 13
+00:04:00.4209515,Plus.jpg,StimuliEnd,Image,End IMG 13
+00:04:00.4210558,Neutral\Konacnih 5\13 - 5831.jpg,StimuliStart,Image,Start IMG 14
+00:04:00.4615273,Neutral\Konacnih 5\13 - 150.wav,StimuliStart,Sound,Start AUD 7
+00:04:03.4355347,Neutral\Konacnih 5\13 - 150.wav,StimuliEnd,Sound,End AUD 7
+00:04:03.4357317,Neutral\Konacnih 5\13 - 5831.jpg,StimuliEnd,Image,End IMG 14
+00:04:03.4357615,Plus.jpg,StimuliStart,Image,Start IMG 15
+00:04:43.4211670,Plus.jpg,StimuliEnd,Image,End IMG 15
+00:04:43.4212597,Neutral\Konacnih 5\14 - 5201.jpg,StimuliStart,Image,Start IMG 16
+00:04:43.5003403,Neutral\Konacnih 5\14 - 151.wav,StimuliStart,Sound,Start AUD 8
+00:04:46.4279288,Neutral\Konacnih 5\14 - 151.wav,StimuliEnd,Sound,End AUD 8
+00:04:46.4286651,Neutral\Konacnih 5\14 - 5201.jpg,StimuliEnd,Image,End IMG 16
+00:04:46.4287090,Plus.jpg,StimuliStart,Image,Start IMG 17
+00:05:11.4210290,Plus.jpg,StimuliEnd,Image,End IMG 17
+00:05:11.4210978,Affective\Prijedlog najjaci\1 8 - a0.jpg,StimuliStart,Image,Start IMG 18
+00:05:11.4899413,Affective\Prijedlog najjaci\1 8 - i2.wav,StimuliStart,Sound,Start AUD 9
+00:05:14.4279761,Affective\Prijedlog najjaci\1 8 - i2.wav,StimuliEnd,Sound,End AUD 9
+00:05:14.4286115,Affective\Prijedlog najjaci\1 8 - a0.jpg,StimuliEnd,Image,End IMG 18
+00:05:14.4286500,Plus.jpg,StimuliStart,Image,Start IMG 19
+00:05:44.4216990,Plus.jpg,StimuliEnd,Image,End IMG 19
+00:05:44.4217819,Affective\Prijedlog najjaci\2 9 - 6260.jpg,StimuliStart,Image,Start IMG 20
+00:05:44.4835389,Affective\Prijedlog najjaci\2 9 - b4.wav,StimuliStart,Sound,Start AUD 10
+00:05:47.4310238,Affective\Prijedlog najjaci\2 9 - b4.wav,StimuliEnd,Sound,End AUD 10
+00:05:47.4312061,Affective\Prijedlog najjaci\2 9 - 6260.jpg,StimuliEnd,Image,End IMG 20
+00:05:47.4312349,Plus.jpg,StimuliStart,Image,Start IMG 21
+00:06:32.4220394,Plus.jpg,StimuliEnd,Image,End IMG 21
+00:06:32.4221110,Affective\Prijedlog najjaci\3 6 - 3168.jpg,StimuliStart,Image,Start IMG 22
+00:06:32.4503228,Affective\Prijedlog najjaci\3 6 - g2.wav,StimuliStart,Sound,Start AUD 11
+00:06:35.4269853,Affective\Prijedlog najjaci\3 6 - g2.wav,StimuliEnd,Sound,End AUD 11
+00:06:35.4274568,Affective\Prijedlog najjaci\3 6 - 3168.jpg,StimuliEnd,Image,End IMG 22
+00:06:35.4274949,Plus.jpg,StimuliStart,Image,Start IMG 23
+00:07:00.4211792,Plus.jpg,StimuliEnd,Image,End IMG 23
+00:07:00.4212499,Neutral\Konacnih 5\13 - 5831.jpg,StimuliStart,Image,Start IMG 24
+00:07:00.4516588,Neutral\Konacnih 5\13 - 150.wav,StimuliStart,Sound,Start AUD 12
+00:07:03.4288495,Neutral\Konacnih 5\13 - 150.wav,StimuliEnd,Sound,End AUD 12
+00:07:03.4294912,Neutral\Konacnih 5\13 - 5831.jpg,StimuliEnd,Image,End IMG 24
+00:07:03.4295297,Plus.jpg,StimuliStart,Image,Start IMG 25
+00:07:38.4216376,Plus.jpg,StimuliEnd,Image,End IMG 25
+00:07:38.4217146,Neutral\Konacnih 5\14 - 5201.jpg,StimuliStart,Image,Start IMG 26
+00:07:38.4418070,Neutral\Konacnih 5\14 - 151.wav,StimuliStart,Sound,Start AUD 13
+00:07:41.4294005,Neutral\Konacnih 5\14 - 151.wav,StimuliEnd,Sound,End AUD 13
+00:07:41.4298593,Neutral\Konacnih 5\14 - 5201.jpg,StimuliEnd,Image,End IMG 26
+00:07:41.4298978,Plus.jpg,StimuliStart,Image,Start IMG 27
+00:08:11.4213694,Plus.jpg,StimuliEnd,Image,End IMG 27
+00:08:11.4214376,Neutral\Konacnih 5\1 - 7211.jpg,StimuliStart,Image,Start IMG 28
+00:08:11.4483381,Neutral\Konacnih 5\1 - 708.wav,StimuliStart,Sound,Start AUD 14
+00:08:14.4257950,Neutral\Konacnih 5\1 - 708.wav,StimuliEnd,Sound,End AUD 14
+00:08:14.4266966,Neutral\Konacnih 5\1 - 7211.jpg,StimuliEnd,Image,End IMG 28
+00:08:14.4267454,Plus.jpg,StimuliStart,Image,Start IMG 29
+00:08:59.4216132,Plus.jpg,StimuliEnd,Image,End IMG 29
+00:08:59.4217083,Neutral\Konacnih 5\10 - 5820.jpg,StimuliStart,Image,Start IMG 30
+00:08:59.4674016,Neutral\Konacnih 5\10 - 172.wav,StimuliStart,Sound,Start AUD 15
+00:09:02.4252952,Neutral\Konacnih 5\10 - 172.wav,StimuliEnd,Sound,End AUD 15
+00:09:02.4259369,Neutral\Konacnih 5\10 - 5820.jpg,StimuliEnd,Image,End IMG 30
+00:09:02.4259984,Plus.jpg,StimuliStart,Image,Start IMG 31
+00:09:37.4258594,Plus.jpg,StimuliEnd,Image,End IMG 31
+00:09:37.4259598,Neutral\Konacnih 5\4 - 7031.jpg,StimuliStart,Image,Start IMG 32
+00:09:37.4515257,Neutral\Konacnih 5\4 - 722.wav,StimuliStart,Sound,Start AUD 16
+00:09:40.4310218,Neutral\Konacnih 5\4 - 722.wav,StimuliEnd,Sound,End AUD 16
+00:09:40.4313124,Neutral\Konacnih 5\4 - 7031.jpg,StimuliEnd,Image,End IMG 32
+00:09:40.4313617,Plus.jpg,StimuliStart,Image,Start IMG 33
+00:10:05.4211202,Plus.jpg,StimuliEnd,Image,End IMG 33
+00:10:05.4211958,Cyan.jpg,StimuliStart,Image,Start IMG 34
+00:10:08.4210690,Cyan.jpg,StimuliEnd,Image,End IMG 34
+00:10:08.4211451,Plus.jpg,StimuliStart,Image,Start IMG 35
+00:11:08.4598006,Plus.jpg,StimuliEnd,Image,End IMG 35
+00:11:08.4612245,,StimPlayerStop,,STOP
