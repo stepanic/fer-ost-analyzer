@@ -1,8 +1,7 @@
 %primjer pozivanja funkcije
 
-%plottanje(decimate(HR_b1,8),decimate(HR_n1,8),decimate(HR_s,8),decimate(HR_n2,8),decimate(HR_b2,8))
-
-%plottanje(decimate(GSR_b1,256),decimate(GSR_n1,256),decimate(GSR_s,256),decimate(GSR_n2,256),decimate(GSR_b2,256))
+%plottanje_glasovne2(F0_b1_2, F0_n1_2, F0_s_2, F0_n2_2, F0_b2_2)
+%plottanje_glasovne2(jL_b1_2, jL_n1_2, jL_s_2, jL_n2_2, jL_b2_2)
 function plottanje_glasovne2(b1, n1, s, n2, b2)
 
 len1 = length(b1);

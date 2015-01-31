@@ -1,5 +1,6 @@
 %primjer pozivanja funkcije
 % plottanje_glasovne(F0_b1, F0_n1, F0_s, F0_n2, F0_b2)
+% plottanje_glasovne(jL_b1, jL_n1, jL_s, jL_n2, jL_b2)
 
 function plottanje_glasovne(b1, n1, s, n2, b2)
 
